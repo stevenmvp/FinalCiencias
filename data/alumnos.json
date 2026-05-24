@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "nombre": "Ana",
+    "promedio": 9.1,
+    "activo": true
+  },
+  {
+    "id": 2,
+    "nombre": "Luis",
+    "promedio": 7.4,
+    "activo": false
+  }
+]

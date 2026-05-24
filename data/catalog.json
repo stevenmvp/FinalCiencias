@@ -1,0 +1,31 @@
+{
+  "tables": {
+    "alumnos": {
+      "schema": [
+        {
+          "name": "id",
+          "type": "int",
+          "primary": true
+        },
+        {
+          "name": "nombre",
+          "type": "text",
+          "primary": false
+        },
+        {
+          "name": "promedio",
+          "type": "real",
+          "primary": false
+        },
+        {
+          "name": "activo",
+          "type": "bool",
+          "primary": false
+        }
+      ],
+      "indexes": [
+        "promedio"
+      ]
+    }
+  }
+}
